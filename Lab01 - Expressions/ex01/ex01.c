@@ -2,6 +2,11 @@
 
 int main(){
     printf("<< Calculo do Quadrado de n >>\n");
+     float n, quadrado;    
+    printf("Digite um numero real");
+    scanf("%f", &n);
+    quadrado=n*n;
+    return 0;
 }
 
 /*
